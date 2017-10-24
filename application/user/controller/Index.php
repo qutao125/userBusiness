@@ -7,6 +7,6 @@ class Index extends BaseController
 {
     public function index()
     {
-        echo 'here';exit;
+        return $this->fetch();
     }
 }

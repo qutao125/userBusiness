@@ -11,9 +11,9 @@ class Ucenter extends BaseController
         parent::__construct($request);
     }
 
-    public function index()
+    public function myinfo()
     {
         $this->checkSecondPwd();
-
+        return $this->fetch();
     }
 }

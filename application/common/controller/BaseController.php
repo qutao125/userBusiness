@@ -14,7 +14,6 @@ class BaseController extends Controller
     public function __construct(Request $request = null) {
         parent::__construct($request);
         $this->checkLogin();
-
     }
 
     public function checkLogin(){
@@ -22,7 +21,8 @@ class BaseController extends Controller
             return true;
         }
         if(!Session::get('uid')){
-            headler('Location:/user/login');
+            header('Location:/user/login/index');
+            exit;
         }
         return true;
     }
