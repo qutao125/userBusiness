@@ -1,0 +1,2815 @@
+[ 2017-10-25T19:28:44+08:00 ] 127.0.0.1 127.0.0.1 GET /xmpad/title/adplayer-xmp4.swf
+[ log ] pianku.xmp.kankan.com/xmpad/title/adplayer-xmp4.swf [运行时间：0.258015s][吞吐率：3.88req/s] [内存消耗：996.30kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'xmpad',
+    1 => 'title',
+    2 => 'adplayer-xmp4.swf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku.xmp.kankan.com',
+  'if-modified-since' => 'Tue, 09 Aug 2016 10:33:48 GMT',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/middletipsconfig/middletipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/middletipsconfig/middletipsconfig.lua [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'middletipsconfig',
+    2 => 'middletipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/middlelinkconfig/middlelinkconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/middlelinkconfig/middlelinkconfig.lua [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'middlelinkconfig',
+    2 => 'middlelinkconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/niuxlinkconfig/niuxlinkconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/niuxlinkconfig/niuxlinkconfig.lua [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：996.09kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'niuxlinkconfig',
+    2 => 'niuxlinkconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/fullscreenad_config/fullscreenad_config.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/fullscreenad_config/fullscreenad_config.lua [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：996.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'fullscreenad_config',
+    2 => 'fullscreenad_config.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/topbearconfig/topbearconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/topbearconfig/topbearconfig.lua [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：996.07kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'topbearconfig',
+    2 => 'topbearconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/yellowconfig/yellowconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/yellowconfig/yellowconfig.lua [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：996.09kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'yellowconfig',
+    2 => 'yellowconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/alientipsconfig/alientipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/alientipsconfig/alientipsconfig.lua [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'alientipsconfig',
+    2 => 'alientipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/topgiftbox_config/topgiftbox_config.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/topgiftbox_config/topgiftbox_config.lua [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：996.20kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'topgiftbox_config',
+    2 => 'topgiftbox_config.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/toptipsconfig/toptipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/toptipsconfig/toptipsconfig.lua [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：996.07kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'toptipsconfig',
+    2 => 'toptipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/middlelinkconfig/middlelinkconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/middlelinkconfig/middlelinkconfig.lua [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'middlelinkconfig',
+    2 => 'middlelinkconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/middletipsconfig/middletipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/middletipsconfig/middletipsconfig.lua [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'middletipsconfig',
+    2 => 'middletipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/niuxlinkconfig/niuxlinkconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/niuxlinkconfig/niuxlinkconfig.lua [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：996.09kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'niuxlinkconfig',
+    2 => 'niuxlinkconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/fullscreenad_config/fullscreenad_config.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/fullscreenad_config/fullscreenad_config.lua [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：996.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'fullscreenad_config',
+    2 => 'fullscreenad_config.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/yellowconfig/yellowconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/yellowconfig/yellowconfig.lua [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：996.09kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'yellowconfig',
+    2 => 'yellowconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/topbearconfig/topbearconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/topbearconfig/topbearconfig.lua [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：996.07kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'topbearconfig',
+    2 => 'topbearconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/alientipsconfig/alientipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/alientipsconfig/alientipsconfig.lua [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：996.13kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'alientipsconfig',
+    2 => 'alientipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/topgiftbox_config/topgiftbox_config.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/topgiftbox_config/topgiftbox_config.lua [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：996.20kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'topgiftbox_config',
+    2 => 'topgiftbox_config.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T19:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /adconfig/toptipsconfig/toptipsconfig.lua
+[ log ] pianku5.xmp.kankan.com/adconfig/toptipsconfig/toptipsconfig.lua [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：996.07kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adconfig',
+    1 => 'toptipsconfig',
+    2 => 'toptipsconfig.lua',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pianku5.xmp.kankan.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index/index
+[ log ] user.dev.com/user/index/index [运行时间：0.051002s][吞吐率：19.61req/s] [内存消耗：1,433.11kb] [文件加载：36]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\user\htdocs\userBusiness\application\user\controller\Index.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：997.02kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:40+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index/index
+[ log ] user.dev.com/user/index/index [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,277.14kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\user\htdocs\userBusiness\application\user\controller\Index.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.020002s][吞吐率：50.00req/s] [内存消耗：997.02kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:51+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter
+[ log ] user.dev.com/user/ucenter [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,303.95kb] [文件加载：36]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:58+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index/index
+[ log ] user.dev.com/user/index/index [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,276.95kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\user\htdocs\userBusiness\application\user\controller\Index.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:58+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：997.02kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:59+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:00:59+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,532.16kb] [文件加载：36]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,310.15kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,310.15kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,310.15kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:42+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,310.15kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:42+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /user/ucenter/reg_user
+[ log ] user.dev.com/user/ucenter/reg_user [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,310.26kb] [文件加载：34]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'ucenter',
+    2 => 'reg_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Ucenter->reg_user[ D:\user\htdocs\userBusiness\application\user\controller\Ucenter.php ]
+[ info ] [ VIEW ] D:\user\htdocs\userBusiness\public/../application/user\view\ucenter\reg_user.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/googleapis-fonts/fonts.css
+[ log ] user.dev.com/static/css/googleapis-fonts/fonts.css [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：997.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'googleapis-fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff2?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff2?v=4.6.3 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：997.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/luhmCheck.js
+[ log ] user.dev.com/static/js/luhmCheck.js [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：997.03kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'luhmCheck.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.woff?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.woff?v=4.6.3 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/autoreg.js
+[ log ] user.dev.com/static/js/autoreg.js [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：996.97kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'autoreg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/img/fontawesome-webfont.ttf?v=4.6.3
+[ log ] user.dev.com/static/css/img/fontawesome-webfont.ttf?v=4.6.3 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：997.48kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://user.dev.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/static/css/font-awesome.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.6.3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-25T20:12:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/layer.js
+[ log ] user.dev.com/static/js/layer.js [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：996.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\user\htdocs\userBusiness\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'user.dev.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://user.dev.com/user/ucenter/reg_user',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6608724992; pgv_si=s3875032064; PHPSESSID=61b4scsif65c94qcr3qkdhvcc4; firstEnterUrlInSession=http%3A//user.dev.com/user/index/index; pageReferrInSession=http%3A//user.dev.com/user/login',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
