@@ -26,13 +26,31 @@ class UserInfo extends Model{
         return $uinfo['id'];
     }
 
-    public function getMyUserList($uid){
+    public function getulist($uid, $page, $perPage){
+        $level1Count = $this->where(['parent_id' => $uid])->count();
+        $pageCount = ceil($level1Count / $perPage);
+        $page = intval($page) > $pageCount ? $pageCount : $page;
+        $start = ($page - 1) * $perPage;
+        $re = $this->where(['parent_id' => $uid])->page($page, $perPage)->select();
+        $userArr = [];
+        foreach($re as $v){
+            $arr = $v->toArray();
+            $userArr[] = $arr;
+        }
+        $reArr = ['datas' => $userArr, 'row_count' => $level1Count, 'page_count' => $pageCount, 'page' => $page];
+        return $reArr;
+    }
+
+    public function getMyUserList($uid, $level = 0){
         $level1 = $this->where(['parent_id' => $uid])->select();
         $list1 = [];
         foreach($level1 as $v){
             $arr = $v->toArray();
             $arr['level'] = 1;
             $list1[] = $arr;
+        }
+        if($level == 1){
+            return $list1;
         }
         $where = [
             'parent_id' => ['in', array_column($list1, 'id')],
@@ -43,6 +61,9 @@ class UserInfo extends Model{
             $arr = $v->toArray();
             $arr['level'] = 2;
             $list2[] = $arr;
+        }
+        if($level == 2){
+            return $list2;
         }
 
         $where = [
@@ -55,7 +76,10 @@ class UserInfo extends Model{
             $arr['level'] = 3;
             $list3[] = $arr;
         }
-        return ['level1' => $list1, 'level2' => $list2, 'level3' => $list3];
+        if($level == 3){
+            return $list3;
+        }
+        return array_merge($list1, $list2, $list3);
     }
 
     public function addUser($uinfo){

@@ -9,6 +9,8 @@ use think\Session;
 class Ucenter extends BaseController
 {
 
+    protected $perPage = 2;
+
     public function __construct(Request $request = null) {
         parent::__construct($request);
     }
@@ -28,8 +30,27 @@ class Ucenter extends BaseController
     public function userlist(){
         $this->checkSecondPwd();
         $uid = Session::get('uid');
+        $level = intval(input('level'));
+        $page = intval(input('page'));
+        $page = $page ? $page : 1;
+        $perPage = $this->perPage;
         $model = new UserInfo();
-        $userList = $model->getMyUserList($uid);
+        $userList = $model->getMyUserList($uid, $level);
+        $dataCount = count($userList);
+        $pageCount = ceil($dataCount / $perPage);
+        $start = ($page - 1) * $perPage;
+        $datas = array_slice($userList, $start, $perPage);
+        $reDatas = ['datas' => $datas, 'page_count' => $pageCount, 'curent_page' => $page, 'row_count' => $dataCount];
+        var_dump($reDatas);exit;
+    }
+
+    public function myuserlist(){
+        $this->checkSecondPwd();
+        $uid = Session::get('uid');
+        $page = intval(input('page'));
+        $page = $page ? $page : 1;
+        $model = new UserInfo();
+        $userList = $model->getulist($uid, $page, $this->perPage);
         var_dump($userList);exit;
     }
 
