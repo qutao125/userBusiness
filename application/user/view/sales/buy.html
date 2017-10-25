@@ -1,0 +1,392 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <script src="yimaotheme/style/js/layer/layer.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style>
+    <style type="text/css">.fancybox-margin{margin-right:21px;}</style>
+    
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>购券</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>购券</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+<div class="container">
+    <div class="wrapper wrapper-content animated fadeInRight">
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>购券 </h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                        <form role="form" id="sendForm" action="control.php" method="post" onsubmit="return checkform();" target="_blank">
+                            <div class="col-sm-6 b-r">
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10">
+                                    <div class="card-header bg-success text-xs-center" style="text-align:center!important;background-color: #1ab394;">
+                                        <p class="font-90;text-align:center ">
+                                            <i class="fa fa-get-pocket display-1 text-white" style=" font-size:80px; "></i>
+                                        </p>
+                                        <div class="p-content">
+                                            <p>&nbsp;</p>
+                                            <p>&nbsp;</p>
+                                            <input type="text" class="btn-rounded  b-a-width-2 bg-white text-black" name="money" id="howmoney" onchange="checkhowmoney();" placeholder="请输入购券金额">
+                                            <input type="hidden" name="act" value="pagepay">
+                                            <input type="hidden" name="__hash__" id="__hash__" value="ba702954cbd6b2008501570e43cc26703b11ad2b" />
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover mail-items m-b-0">
+                                            <tbody>
+                                                <tr class="unread">
+                                                    <td class="mail-item-sender">选择支付方式</td>
+                                                </tr>
+                                                <!--快捷支付-->
+                                                <tr class="unread">
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/mjpay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">储蓄卡支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio"  class="custom-control-input" id="mjpay" name="paytype" value="mjpay" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <!--茂捷 微信扫码支付 20170924
+                                                <tr class="unread"  >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wxpay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">微信扫码支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio"  class="custom-control-input" id="bcpay1" name="paytype" value="zsmjpay1" checked>
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr> -->
+
+                                                <!-- 茂捷 支付宝支付 20170924
+                                                <tr class="unread"   >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/alipay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">支付宝支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="bcpay3" name="paytype" value="zsmjpay3" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr> -->
+                                                
+                                                <!--信用卡支付
+                                                <tr class="unread">
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/mjpay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">信用卡支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio"  class="custom-control-input" id="bcpay6" name="paytype" value="bcpay6" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>-->
+                                                
+                                                <!--微信扫码支付-->
+                                                <tr class="unread"  >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wxpay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">微信扫码支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio"  class="custom-control-input" id="bcpay1" name="paytype" value="bcpay1" checked>
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                <!--微信公众号支付
+                                                <tr class="unread" style='display:none;' >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wxpay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">微信手机支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio"  class="custom-control-input" id="bcpay7" name="paytype" value="bcpay7" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>-->
+                                                
+                                                <!--支付宝支付-->
+                                                <tr class="unread"   >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/alipay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">支付宝支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="bcpay3" name="paytype" value="bcpay3" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                
+                                                
+                                                
+                                                <!--判断用户移动端还是PC端显示对应支付通道-->
+                                                
+                                                
+                                                <!--支付宝支付
+                                                <tr class="unread"   >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/alipay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">支付宝支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="alipay" name="paytype" value="alipay">
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr class="unread" style='display:none;' >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/alipay.jpg" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">支付宝移动支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="alipay" name="paytype" value="alipayMobile" >
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>-->
+                                                
+                                                
+                                                <!--易宝支付
+                                                <tr class="unread"  >
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/yeepay.png" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">易宝支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="yeepay" name="paytype" value="yeepay">
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                -->
+                                                <!--易宝移动支付
+                                                <tr class="unread" style='display:none;'>
+                                                    <td class="mail-item-sender">
+                                                        <a class="  m-r-0-6" href="#">
+                                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/yeepay.png" alt=""></a>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                                        <a href="#">易宝移动支付</a></td>
+                                                    <td class="mail-item-time">选择</td>
+                                                    <td class="mail-item-checkbox">
+                                                        <label class="custom-control custom-checkbox">
+                                                            <input type="radio" class="custom-control-input" id="yeepay" name="paytype" value="yeepayMobile">
+                                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                                -->
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                            <div class="col-sm-6"><h4>确认购券</h4>
+                                <p><span class="btn-warning">购券金额请勿输入100的倍数，谢谢合作</span></p>
+                                <p>点击下方按钮进行购券申请</p>
+                                <p class="text-center">
+                                    <a id="sendUp" onclick="submitform()" class="ladda-button ladda-button-demo" data-style="zoom-in"><i class="fa fa-check big-icon" style="color: #1ab394"></i></a>
+                                </p>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="alert alert-success" ss="">
+                            购券记录
+                        </div>
+                        <div class="tablesaw-bar mode-stack"></div>
+            <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="tbList">
+                <thead>
+                    <tr role="row">
+                        <th>编号</th>
+                        <th>流水号</th>
+                        <th>购券类型</th>
+                        <th>购券时间</th>
+                        <th>审核时间</th>
+                        <th>购券金额</th>
+                        <th>状态</th>
+                    </tr>                               
+                </thead>
+                <tbody id="listDtl">
+                
+                                    <tr><td colspan="7" style="text-align:center;">！</td></tr>
+                                </tbody></table>
+                    <div id="listPaging" class="row grey-bg"><form action="?&action=chonglist&templist=1" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">0</b>条记录，当前显示第&nbsp;<b class="blue">0</b>&nbsp;页&nbsp;共0页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-white btn-sm" href="?page=1&action=chonglist&templist=1">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=chonglist&templist=1">上一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=0&action=chonglist&templist=1">下一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=0&action=chonglist&templist=1">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="chonglist"><input type="hidden" name="templist" value="1"></div></div></div></form></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+<script>
+    function is_hundred(){
+        var howmoney = $("#howmoney").val();
+        if(howmoney % 100 == 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    function checkhowmoney(){
+        if(is_hundred()){
+            showSweetAlert('',"购券金额请勿输入100的倍数，谢谢合作", 'error');
+            $("#howmoney").val('');
+        }
+    }
+    function checkform(){
+        if(is_hundred()){
+            showSweetAlert('',"购券金额请勿输入100的倍数，谢谢合作", 'error');
+            $("#howmoney").val('');
+            return false;
+        }else{
+            return true;
+        }       
+    }
+    function submitform(){
+        if(IsPC()){
+            $("#sendForm").attr('target', '_blank');
+            parent.layer.confirm('是否已完成购券？', {
+                btn: ['已完成购券','取消'], //按钮
+            }, function(){
+                window.location.reload();
+            }, function(){
+                window.location.reload();
+            });
+            
+        }else{
+            $("#sendForm").attr('target', '_self');
+        }
+        $("#sendForm").submit();
+    }
+    
+</script>
+<script src="/asset/js/jbase64.min.js"></script>
+<script>
+    function refleshorder(payid){
+        var tokenvalue = $("#__hash__").val();
+        setTimeout(function () {
+            $.ajax({
+                url: "control.php",
+                type: "post",
+                dataType: "json",
+                data: {      
+                        act:'refleshorder',
+                        __hash__:tokenvalue,
+                        orderId:BASE64.encoder(payid)     
+                    },
+                error: function (msg) {
+                    showSweetAlert('', msg, 'error');
+                },
+                success: function (msg) {
+                    if (msg.Result != 1) {
+                        showSweetAlert('', msg.Description, 'error');
+                        setTimeout(function () {
+                            location.reload();
+                        },1000);
+                    } else {
+                        showSweetAlert("", msg.Description, "success",function (isConfirm) {
+                            location.reload();
+                        });
+                        setTimeout(function () {
+                            location.reload();
+                        },2000);
+                    }
+                    l.ladda('stop');
+                }
+            });
+        }, 500);
+    }
+</script>                 
+{include file="../application/user/view/layout/footer.html" /}
+</div>  
+</div>
+</div>
+</body>
+</html>

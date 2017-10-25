@@ -1,0 +1,136 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>奖金明细</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>奖金记录</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="wrapper wrapper-content animated fadeInRight">
+
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>奖金明细 </h5>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row" style="display:none">
+                                    <form class="form-inline title-form" name="form2" method="post" action="?action1=query">
+                                        <div class="form-group" id="data_5">
+                                            <label class="font-noraml"></label>
+                                            <div class="input-daterange input-group" id="datepicker">
+                                                <input type="text" class="input-sm form-control" name="time1" placeholder="开始日期">
+                                                <span class="input-group-addon">到</span>
+                                                <input type="text" class="input-sm form-control" name="time2" placeholder="截止日期">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">查询</button>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <div class="tablesaw-bar mode-stack"></div>
+                    <table style="font-size:17px" class="table table-hover table- tablesaw-stack" data-tablesaw-mode="stack" id="example">
+                        <thead>
+                            <tr role="row">
+                                <th>序号</th>
+                                <th>时间</th>                               
+                                <th>分红奖</th><th>分销奖</th><th>领导奖</th><th>消费奖</th>                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listDtl">
+                        
+                                                
+                          <tr>
+                            <td align="center">1</td>
+                            <td align="center">2017-10-25</td>
+                            <td align='center'>10.81</td><td align='center'>5.58</td><td align='center'>0.00</td><td align='center'>0.00</td>                           <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=104" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">2</td>
+                            <td align="center">2017-10-24</td>
+                            <td align='center'>10.17</td><td align='center'>5.49</td><td align='center'>0.00</td><td align='center'>0.00</td>                           <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=103" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">3</td>
+                            <td align="center">2017-10-23</td>
+                            <td align='center'>10.27</td><td align='center'>5.42</td><td align='center'>0.00</td><td align='center'>0.00</td>                           <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=102" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">4</td>
+                            <td align="center">2017-10-22</td>
+                            <td align='center'>10.00</td><td align='center'>5.30</td><td align='center'>0.00</td><td align='center'>0.00</td>                           <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=101" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">5</td>
+                            <td align="center">2017-10-21</td>
+                            <td align='center'>9.74</td><td align='center'>5.24</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=100" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">6</td>
+                            <td align="center">2017-10-20</td>
+                            <td align='center'>9.48</td><td align='center'>5.15</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=99" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">7</td>
+                            <td align="center">2017-10-19</td>
+                            <td align='center'>9.14</td><td align='center'>9.89</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=98" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">8</td>
+                            <td align="center">2017-10-18</td>
+                            <td align='center'>8.68</td><td align='center'>0.00</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=97" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">9</td>
+                            <td align="center">2017-10-17</td>
+                            <td align='center'>8.76</td><td align='center'>4.92</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=96" >查看明细</a></td>
+                          </tr>
+                                                    
+                          <tr>
+                            <td align="center">10</td>
+                            <td align="center">2017-10-16</td>
+                            <td align='center'>8.51</td><td align='center'>4.91</td><td align='center'>0.00</td><td align='center'>0.00</td>                            <td align="center"><a href="http://www.zhdls.com/main.php?action=prizedetail&veid=95" >查看明细</a></td>
+                          </tr>
+                                                    </tbody>
+                    </table>
+                        <div id="listPaging" class="row grey-bg"><form action="?&action=prizelist" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">23</b>条记录，当前显示第&nbsp;<b class="blue">1</b>&nbsp;页&nbsp;共3页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-primary btn-sm" href="?page=1&action=prizelist">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=prizelist">上一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=1&action=prizelist" class="selpage">1</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=prizelist">2</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=3&action=prizelist">3</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=prizelist">下一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=3&action=prizelist">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="prizelist"></div></div></div></form></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>        
+{include file="../application/user/view/layout/footer.html" /}
+</div>  
+</div>
+</div>
+</body>
+</html>
