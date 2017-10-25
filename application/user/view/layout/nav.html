@@ -1,3 +1,42 @@
+        <style type="text/css">
+            .bk-toolBar {
+                line-height: 36px;
+                background-color: #2a333a;
+            }
+            .pull-left {
+                float: left!important;
+            }
+            .bk-toolBar>ul,li,dl,dt,dd{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .bk-toolBar>ul>li {
+                display: inline-block;
+                height: 100%;
+                color: #7c8187;
+            }
+            .bk-toolBar>ul>li p {
+                margin: 0;
+            }
+            .bk-toolBar>.btn.btn-skew {
+                -webkit-transform: skew(-20deg);
+                -moz-transform: skew(-20deg);
+                -o-transform: skew(-20deg);
+                transform: skew(-20deg);
+            }
+            .bk-toolBar>.btn.btn-skew span {
+                -webkit-transform: skew(20deg);
+                -moz-transform: skew(20deg);
+                -o-transform: skew(20deg);
+                transform: skew(20deg);
+            }
+
+        </style>
+        <!-- Live800在线客服图标:默认图标[浮动图标]开始-->
+        <div style="display:none;"><a href="https://www.live800.com/">web聊天</a></div><script language="javascript" src="/static/js/floatButton.js"></script><script language="javascript" src="/static/js/floatButtonStatic.js"></script><div style="display:none;"><a href="https://en.live800.com/">live chat</a></div>
+        <!-- 在线客服图标:默认图标结束-->
+        <div class="row border-bottom white-bg" id="topMenu">
 <div class="bk-toolBar clearfix" id="pc-top">
     <ul class="pull-left" id="topMenuPrice">
         <li><p>&nbsp;&nbsp;<i class="fa fa-fire"></i>&nbsp;欢迎您！ <span class="text-warning">{$data['mobile']}！</span></p></li>
@@ -40,50 +79,50 @@
                             <a aria-expanded="false" role="button" href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i>团队管理<span class="caret"></span></a>
                             <ul role="menu" class="dropdown-menu">
                                 <li><a href="/user/ucenter/register">会员申请</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=mytj">推荐会员</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=openlistcomp">已注册会员</a></li>
+                                <li><a href="">推荐会员</a></li>
+                                <li><a href="">已注册会员</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a aria-expanded="false" role="button" href="https://www.zhdls.com/salaryquery.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money"></i>财务管理<span class="caret"></span></a>
+                            <a aria-expanded="false" role="button" href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money"></i>财务管理<span class="caret"></span></a>
                             <ul role="menu" class="dropdown-menu">
-                                <li><a href="http://www.zhdls.com/main.php?action=huanlist">存券</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=qhuan">换券</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=zhuanlist">转券</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=prizelist">奖金记录</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=coinlist">积分记录</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=tiqulist">兑券</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=chonglist">购券</a></li>
+                                <li><a href="">存券</a></li>
+                                <li><a href="">换券</a></li>
+                                <li><a href="">转券</a></li>
+                                <li><a href="">奖金记录</a></li>
+                                <li><a href="">积分记录</a></li>
+                                <li><a href="">兑券</a></li>
+                                <li><a href="">购券</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a aria-expanded="false" role="button" href="https://www.zhdls.com/order.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i>产品中心<span class="caret"></span></a>
                             <ul role="menu" class="dropdown-menu">
-                                <li><a href="http://www.zhdls.com/main.php?action=buymai">产品订购</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=mygou">订单列表</a></li>
-                                <!-- <li><a href="http://www.zhdls.com/main.php?action=cartlist" >我的购物车</a></li>-->
+                                <li><a href="">产品订购</a></li>
+                                <li><a href="">订单列表</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a aria-expanded="false" role="button" href="https://www.zhdls.com/order.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bar-chart"></i>股权中心<span class="caret"></span></a>
                             <ul role="menu" class="dropdown-menu">
-                                <li><a href="http://www.zhdls.com/main.php?action=buytrade">购入股权</a></li>
-                                <li><a href="http://www.zhdls.com/main.php?action=buyback">公司回购</a></li>
+                                <li><a href="">购入股权</a></li>
+                                <li><a href="">公司回购</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a aria-expanded="false" role="button" href="https://www.zhdls.com/announces.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-newspaper-o"></i>信息管理<span class="caret"></span></a>
                             <ul role="menu" class="dropdown-menu">
-                                <li><a href="http://www.zhdls.com/main.php?action=newslist">系统公告</a></li>
+                                <li><a href="">系统公告</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="nav navbar-top-links navbar-right">
                         <li>
-                            <a href="https://www.zhdls.com/index.php?u=out" onclick="return confirm(&#39;确定退出吗？&#39;)">
+                            <a onclick="return confirm('确定退出吗？')">
                                 <i class="fa fa-sign-out"></i>安全退出
                             </a>
                         </li>
                     </ul>
                 </div>
             </nav>
+        </div>
