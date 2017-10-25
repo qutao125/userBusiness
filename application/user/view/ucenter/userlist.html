@@ -1,0 +1,137 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+<div id="wrapper">
+    <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+
+
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>我的推荐</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="https://www.zhdls.com/main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>团队管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>我的推荐</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                            <div class="row text-right" style="margin: 20px 0px;">
+                                <!-- <div class="col-lg-4">
+                                    <button type="button" class="btn btn-danger m-r-sm">4208.13</button>
+                                    积分收入合计
+                                </div>
+                                <div class="col-lg-4">
+                                    <button type="button" class="btn btn-primary m-r-sm">0</button>
+                                    积分支出合计
+                                </div> -->
+                                <div class="col-lg-4">
+
+                                    <button type="button" class="btn btn-info m-r-sm"
+                                            onclick="javascrtpt:window.location.href='?page=1&level=1'">一级分销
+                                    </button>
+
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <button type="button" class="btn btn-danger m-r-sm"
+                                            onclick="javascrtpt:window.location.href='?page=1&level=2'">二级分销
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="ibox-title">
+                                <h5>我的推荐 </h5>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row">
+                                    <div class="tablesaw-bar mode-stack"></div>
+                                    <table style="font-size:17px" class="table table-hover tablesaw-stack"
+                                           data-tablesaw-mode="stack" id="example">
+                                        <thead>
+                                        <tr role="row">
+                                            <th>序号</th>
+                                            <th>账号</th>
+                                            <th>分销级别</th>
+                                            <th>个人业绩</th>
+                                            <th>名字</th>
+                                            <th>注册时间</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="listDtl">
+
+
+                                        {volist name="datas" id="vo"}
+                                        <tr class="btn-info">
+                                            <td align="center"><b class="tablesaw-cell-label">{$vo.id}</b><span
+                                                    class="tablesaw-cell-content">{$vo.id}</span></td>
+                                            <td align="center"><b class="tablesaw-cell-label">账号</b><span
+                                                    class="tablesaw-cell-content">{$vo.user_name}</span></td>
+                                            <td align="center"><b class="tablesaw-cell-label">分销级别</b><span
+                                                    class="tablesaw-cell-content">{$vo.levelinfo}</span></td>
+                                            <td align="center"><b class="tablesaw-cell-label">个人业绩</b><span
+                                                    class="tablesaw-cell-content">{$vo.money_count}</span></td>
+                                            <td align="center"><b class="tablesaw-cell-label">名字</b><span
+                                                    class="tablesaw-cell-content">{$vo.real_name}</span></td>
+                                            <!--<td align="center">185****1996</td>-->
+                                            <td align="center"><b class="tablesaw-cell-label">注册时间</b><span
+                                                    class="tablesaw-cell-content">{$vo.create_time}</span></td>
+                                        </tr>
+                                        {/volist}
+
+                                        </tbody>
+                                    </table>
+                                    <div id="listPaging" class="row grey-bg">
+                                        <form action="?&level={$level}" method="get">
+                                            <div class="col-md-6" style="padding-top: 10px;">
+                                                <p>共<b class="blue">{$row_count}</b>条记录，当前显示第&nbsp;<b class="blue">{$current_page}</b>&nbsp;页&nbsp;共{$page_count}页</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="btn-group pull-right" style="padding-top: 5px;"><a
+                                                        class="btn btn-white btn-sm" href="?page=1&level={$level}">首页</a>&nbsp;&nbsp;<a
+                                                        class="btn btn-white btn-sm"
+                                                        href="?page={$prev_page}&level={$level}">上一页</a>&nbsp;&nbsp;<a
+                                                        class="btn btn-white btn-sm"
+                                                        href="?page={$next_page}&level={$level}">下一页</a>&nbsp;&nbsp;<a
+                                                        class="btn btn-white btn-sm" href="?page={$page_count}&level={$level}">尾页</a>&nbsp;&nbsp;<div
+                                                        class="form-group"><input type="text" size=20 name="page"
+                                                                                  onkeyup="value=value.replace(/[^\d]/g,'')"><input
+                                                        type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input
+                                                        type="hidden" name="level" value="{$level}"></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style="margin-top: 10px;">
+                    <meta charset="UTF-8">
+                    <title>Title</title>
+                    <link href="../Public/css/style_my.css" rel="stylesheet" type="text/css">
+
+                </div>
+                <!--翻页-->
+            </div>
+            {include file="../application/user/view/layout/footer.html" /}
+        </div>
+    </div>
+</div>
+</body>
+</html>

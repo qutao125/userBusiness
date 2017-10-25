@@ -40,8 +40,21 @@ class Ucenter extends BaseController
         $pageCount = ceil($dataCount / $perPage);
         $start = ($page - 1) * $perPage;
         $datas = array_slice($userList, $start, $perPage);
-        $reDatas = ['datas' => $datas, 'page_count' => $pageCount, 'curent_page' => $page, 'row_count' => $dataCount];
-        var_dump($reDatas);exit;
+        $textArr = [1 => '一级分销', 2 => '二级分销', 3 => '三级分销'];
+        foreach($datas as $k=>$v){
+            $datas[$k]['levelinfo'] = $textArr[$v['level']];
+            $datas[$k]['create_time'] = date('Y-m-d', strtotime($v['create_time']));
+            $datas[$k]['money_count'] = mt_rand(10000,99999); //TODO...到时候重新计算
+        }
+        $this->assign('level', $level);
+        $this->assign('datas', $datas);
+        $this->assign('page_count', $pageCount);
+        $this->assign('current_page', $page);
+        $this->assign('prev_page', $page == 1 ? 1 : $page);
+        $this->assign('next_page', $page >= $pageCount ? $pageCount : $page + 1);
+        $this->assign('row_count', $dataCount);
+        //$reDatas = ['datas' => $datas, 'page_count' => $pageCount, 'curent_page' => $page, 'row_count' => $dataCount];
+        return $this->fetch();
     }
 
     public function myuserlist(){
@@ -51,7 +64,21 @@ class Ucenter extends BaseController
         $page = $page ? $page : 1;
         $model = new UserInfo();
         $userList = $model->getulist($uid, $page, $this->perPage);
-        var_dump($userList);exit;
+        $textArr = [1 => '一级分销', 2 => '二级分销', 3 => '三级分销'];
+        $datas = $userList['datas'];
+        foreach($datas as $k=>$v){
+            $datas[$k]['levelinfo'] = $textArr[1];
+            $datas[$k]['create_time'] = date('Y-m-d', strtotime($v['create_time']));
+            $datas[$k]['money_count'] = mt_rand(10000,99999); //TODO...到时候重新计算
+        }
+        $this->assign('datas', $datas);
+        $this->assign('level', 1);
+        $this->assign('page_count', $userList['page_count']);
+        $this->assign('row_count', $userList['row_count']);
+        $this->assign('current_page', $userList['page']);
+        $this->assign('prev_page', $userList['page'] == 1 ? 1 : $userList['page'] - 1);
+        $this->assign('next_page', $userList['page'] >= $userList['page_count'] ? $userList['page_count'] : $userList['page'] + 1);
+        return $this->fetch();
     }
 
     public function useradd(){
