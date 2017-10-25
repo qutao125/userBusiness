@@ -1,0 +1,167 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>兑券</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>兑券申请</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>兑券</h5>
+                        </div>
+                        
+                        <div class="ibox-content p-xl">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h5>兑券须知：</h5>
+                                    <address>
+                                        <strong style="font-color:red">9月30日至10月8日期间的兑券将在国庆节后统一发放</strong><br><br>
+                                        请仔细核对下表所列的账户资料是否存在误填，漏填现象<br>
+                                        如有请到资料修改栏中修改并完善【<a href="/main.php?action=myinfo">资料修改</a>】<br>
+                                        兑券金额为100元的整数倍
+                                       <!-- 106 Jorg Avenu, 600/10<br>
+                                        Chicago, VT 32456<br>
+                                        <abbr title="Phone">P:</abbr> (123) 601-4590-->
+                                    </address>
+                                </div>
+
+                                <div class="col-sm-6 text-right">
+                                    <span>申请方： <strong>魏福昂</strong></span>
+                                    <address>
+                                       18627145387<br>
+                                        <br>
+                                                                            </address>
+                                    <p>
+                                        <span><strong>兑券日期：</strong> 2017-10-25</span><br>
+                                        <!--<span><strong>Due Date:</strong> March 24, 2014</span>-->
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <table class="table invoice-total">
+                                <tbody>
+                                <tr>
+                                    <td><strong>手续费 :</strong></td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>订货券 :</strong></td>
+                                    <td>0.01</td>
+                                </tr>
+                             <form id="sendForm" onsubmit="return false">
+                              <input name="act" type="hidden" value="tiqu">
+                              <input type="hidden" name="__hash__" value="ba702954cbd6b2008501570e43cc26703b11ad2b" />
+                                <tr>
+                                    <td><strong>兑券金额 :</strong></td>
+                                    <td>
+                                        <input name="price" type="text" value="" id="price">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>备注 :</strong></td>
+                                    <td>
+                                        <input name="tbz" type="text" value="" id="tbz">
+                                    </td>
+                                </tr>
+                              </form>
+                              </tbody>
+                            </table>
+                            <div class="text-right">
+                                <button class="ladda-button ladda-button-demo btn btn-primary" onclick="sendAjax('sendTx','control.php')" data-style="zoom-in" id="sendTx"><i class="fa fa-cny"></i> 提交申请</button>
+                            </div>
+                        </div>
+                        
+                        <div class="ibox-title">
+                            <h5>兑券记录</h5>
+                        </div>
+                        <div class="ibox-content">
+                        <div class="row">
+                        <div class="tablesaw-bar mode-stack"></div>
+                   <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="tbList">
+                        <thead>
+                            <tr role="row">
+                                <th>编号</th>
+                                <th>状态</th>
+                                <th>兑券金额</th>
+                                <th>扣税</th>
+                                <th>实际金额</th>
+                                <th>申请时间</th>
+                                <th>审核时间</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listDtl">
+                        
+                                                    <tr><td colspan="7" style="text-align:center;">暂无数据！</td></tr>
+                                                </tbody></table>
+                <div id="listPaging" class="row grey-bg"><form action="?&action=tiqulist" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">0</b>条记录，当前显示第&nbsp;<b class="blue">0</b>&nbsp;页&nbsp;共0页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-white btn-sm" href="?page=1&action=tiqulist">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=tiqulist">上一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=0&action=tiqulist">下一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=0&action=tiqulist">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="tiqulist"></div></div></div></form></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    function sendAjax(buttonId,goPage){
+        var thisTicket = "#"+buttonId;
+        var l = $(thisTicket).ladda();
+
+        // Start loading
+        l.ladda('start');
+        setTimeout(function () {
+            $.ajax({
+                url: goPage,
+                type: "post",
+                dataType: "json",
+                data: $("#sendForm").serialize(),
+                error: function (msg) {
+                    showSweetAlert('', msg, 'error');
+                },
+                success: function (msg) {
+                    if (msg.Result!= 1) {
+                        showSweetAlert('', msg.Description, 'error');
+                        setTimeout(function () { 
+                            window.location.reload();
+                        }, 2000);
+                    } else {
+                        showSweetAlert("", msg.Description, "success",function (isConfirm) {
+                            location.href = msg.toUrl;
+                        });
+                        setTimeout(function () {
+                            location.href = msg.toUrl;
+                        },2000);
+                    }
+                    l.ladda('stop');
+                }
+            });
+        }, 500);
+    }
+</script>          
+{include file="../application/user/view/layout/footer.html" /}
+</div>  
+</div>
+</div>
+</body>
+</html>

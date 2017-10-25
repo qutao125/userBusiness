@@ -1,0 +1,223 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <style>
+            .table-hover>tbody>tr:hover{background-color:#5B5B5B}
+        </style>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>积分记录</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>积分记录</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>积分记录 </h5>
+                        </div>
+                        <div class="ibox-content">
+                          <!--  <div class="row">
+                                <form class="form-inline title-form" name="form2" method="post" action="?action1=query">
+                                    <div class="form-group" id="data_5">
+                                        <label class="font-noraml"></label>
+                                        <div class="input-daterange input-group" id="datepicker">
+                                            <input type="text" class="input-sm form-control" name="time1" placeholder="开始日期">
+                                            <span class="input-group-addon">到</span>
+                                            <input type="text" class="input-sm form-control" name="time2" placeholder="截止日期">
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">查询</button>
+                                </form>
+                            </div>-->
+                            <div class="row text-right" style="margin: 20px 0px;">
+                                <!-- <div class="col-lg-4">
+                                    <button type="button" class="btn btn-danger m-r-sm">382.50</button>
+                                    积分收入合计
+                                </div>
+                                <div class="col-lg-4">
+                                    <button type="button" class="btn btn-primary m-r-sm">0</button>
+                                    积分支出合计
+                                </div> -->
+                                <div class="col-lg-2">
+
+                                    <button type="button" class="btn btn-info m-r-sm" onclick="javascrtpt:window.location.href='http://www.zhdls.com/main.php?action=coinlist&ctype=1'">0.01</button>
+                                    订货券                                </div>
+                                <div class="col-lg-2">
+
+                                    <button type="button" class="btn btn-danger m-r-sm" onclick="javascrtpt:window.location.href='http://www.zhdls.com/main.php?action=coinlist&ctype=2'">554.73</button>
+                                    优惠券                                </div>
+                                <div class="col-lg-2">
+
+                                    <button type="button" class="btn btn-warning m-r-sm" onclick="javascrtpt:window.location.href='http://www.zhdls.com/main.php?action=coinlist&ctype=3'">6.96</button>
+                                    股权                                </div>
+                                <div class="col-lg-2">
+
+                                    <button type="button" class="btn btn-success m-r-sm" onclick="javascrtpt:window.location.href='http://www.zhdls.com/main.php?action=coinlist&ctype=4'">14.86</button>
+                                    提货券                                </div>
+                                <div class="col-lg-2">
+
+                                    <button type="button" class="btn btn-primary m-r-sm" onclick="javascrtpt:window.location.href='http://www.zhdls.com/main.php?action=coinlist&ctype=4'">14.86</button>
+                                    提货券                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tablesaw-bar mode-stack"></div>
+                    
+                    
+                    <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="example">
+                        <thead>
+                            <tr role="row">
+                                <th>序号</th>
+                                <th>类型</th>
+                                <th>收入</th>
+                                <th>支出</th>
+                                <th>余额</th>
+                                <th>积分类型</th>
+                                <th>时间</th>
+                                <th>备注</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listDtl">
+                        
+                                              
+                          <tr class="btn-warning">
+                            <td align="center">1</td>
+                            <td align="center">存券</td>
+                            <td align="center">+1.08</td>
+                            <td align="center"></td>
+                            <td align="center">6.96</td>
+                            <td align="center">股权</td>
+                            <td align="center">2017-10-25 09:37:26</td>
+                            <td align="center">存券送股权优惠活动</td>
+                          </tr>
+                                                  
+                          <tr class="btn-success">
+                            <td align="center">2</td>
+                            <td align="center">存券</td>
+                            <td align="center">+1.08</td>
+                            <td align="center"></td>
+                            <td align="center">14.86</td>
+                            <td align="center">提货券</td>
+                            <td align="center">2017-10-25 09:37:26</td>
+                            <td align="center">订货券存券</td>
+                          </tr>
+                                                  
+                          <tr class="btn-danger">
+                            <td align="center">3</td>
+                            <td align="center">存券</td>
+                            <td align="center">+19.44</td>
+                            <td align="center"></td>
+                            <td align="center">554.73</td>
+                            <td align="center">优惠券</td>
+                            <td align="center">2017-10-25 09:37:26</td>
+                            <td align="center">订货券存券</td>
+                          </tr>
+                                                  
+                          <tr class="btn-info">
+                            <td align="center">4</td>
+                            <td align="center">存券</td>
+                            <td align="center"></td>
+                            <td align="center">-10.80</td>
+                            <td align="center">0.01</td>
+                            <td align="center">订货券</td>
+                            <td align="center">2017-10-25 09:37:26</td>
+                            <td align="center">订货券存券</td>
+                          </tr>
+                                                  
+                          <tr class="btn-danger">
+                            <td align="center">5</td>
+                            <td align="center">奖金</td>
+                            <td align="center">+5.58</td>
+                            <td align="center"></td>
+                            <td align="center">535.29</td>
+                            <td align="center">优惠券</td>
+                            <td align="center">2017-10-25 09:36:35</td>
+                            <td align="center">分销奖奖金</td>
+                          </tr>
+                                                  
+                          <tr class="btn-info">
+                            <td align="center">6</td>
+                            <td align="center">奖金</td>
+                            <td align="center">+10.81</td>
+                            <td align="center"></td>
+                            <td align="center">10.81</td>
+                            <td align="center">订货券</td>
+                            <td align="center">2017-10-25 01:05:54</td>
+                            <td align="center">2017-10-25 00:39:01日分红奖金</td>
+                          </tr>
+                                                  
+                          <tr class="btn-danger">
+                            <td align="center">7</td>
+                            <td align="center">分红</td>
+                            <td align="center"></td>
+                            <td align="center">-10.81</td>
+                            <td align="center">529.71</td>
+                            <td align="center">优惠券</td>
+                            <td align="center">2017-10-25 00:25:31</td>
+                            <td align="center">分红扣除</td>
+                          </tr>
+                                                  
+                          <tr class="btn-warning">
+                            <td align="center">8</td>
+                            <td align="center">存券</td>
+                            <td align="center">+2.04</td>
+                            <td align="center"></td>
+                            <td align="center">5.88</td>
+                            <td align="center">股权</td>
+                            <td align="center">2017-10-24 09:24:27</td>
+                            <td align="center">存券送股权优惠活动</td>
+                          </tr>
+                                                  
+                          <tr class="btn-success">
+                            <td align="center">9</td>
+                            <td align="center">存券</td>
+                            <td align="center">+2.04</td>
+                            <td align="center"></td>
+                            <td align="center">13.78</td>
+                            <td align="center">提货券</td>
+                            <td align="center">2017-10-24 09:24:27</td>
+                            <td align="center">订货券存券</td>
+                          </tr>
+                                                  
+                          <tr class="btn-danger">
+                            <td align="center">10</td>
+                            <td align="center">存券</td>
+                            <td align="center">+36.79</td>
+                            <td align="center"></td>
+                            <td align="center">540.52</td>
+                            <td align="center">优惠券</td>
+                            <td align="center">2017-10-24 09:24:27</td>
+                            <td align="center">订货券存券</td>
+                          </tr>
+                                                    </tbody>
+                    </table>
+                    <div id="listPaging" class="row grey-bg"><form action="?&action=coinlist&ctype=0" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">123</b>条记录，当前显示第&nbsp;<b class="blue">1</b>&nbsp;页&nbsp;共13页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-primary btn-sm" href="?page=1&action=coinlist&ctype=0">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=coinlist&ctype=0">上一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=1&action=coinlist&ctype=0" class="selpage">1</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=coinlist&ctype=0">2</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=3&action=coinlist&ctype=0">3</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=4&action=coinlist&ctype=0">4</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=5&action=coinlist&ctype=0">5</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=6&action=coinlist&ctype=0">6</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=7&action=coinlist&ctype=0">7</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=coinlist&ctype=0">下一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=13&action=coinlist&ctype=0">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="coinlist"><input type="hidden" name="ctype" value="0"></div></div></div></form></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+{include file="../application/user/view/layout/footer.html" /}
+</div>  
+</div>
+</div>
+</body>
+</html>

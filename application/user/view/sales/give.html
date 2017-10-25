@@ -1,0 +1,177 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>转券</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="main.php">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>转券</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper wrapper-content animated fadeInRight">
+
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5 class="text-danger">转券记录 </h5>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row">
+                                    <form class="form-inline title-form" name="form2" method="get" action="">
+                                        <input type="hidden" name="action" value="zhuanlist">
+                                        <div class="form-group" id="data_5">
+                                            <label class="font-noraml"></label>
+                                            <div class="input-daterange input-group" id="datepicker">
+                                                <input type="text" class="input-sm form-control" name="time1" placeholder="开始日期">
+                                                <span class="input-group-addon">到</span>
+                                                <input type="text" class="input-sm form-control" name="time2" placeholder="截止日期">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">查询</button>
+                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">我要转券</button>
+                                    </form>
+                                </div>
+                                <div class="row">
+
+                                    <div class="tablesaw-bar mode-stack"></div>
+                    <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="example">
+                        <thead>
+                            <tr role="row">
+                                <th>序号</th>     
+                                <th>转出帐号</th> 
+                                <th>转券金额</th>
+                                <th>转入帐号</th>
+                                <th>转券类型</th>
+                                <th>转券时间</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listDtl">
+                        
+                                                    <tr><td colspan="6" style="text-align:center;">暂无数据！</td></tr>
+                                                </tbody></table>
+                <div id="listPaging" class="row grey-bg"><form action="?&action=zhuanlist&templist=1" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">0</b>条记录，当前显示第&nbsp;<b class="blue">0</b>&nbsp;页&nbsp;共0页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-white btn-sm" href="?page=1&action=zhuanlist&templist=1">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=zhuanlist&templist=1">上一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=0&action=zhuanlist&templist=1">下一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=0&action=zhuanlist&templist=1">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="zhuanlist"><input type="hidden" name="templist" value="1"></div></div></div></form></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(".input-sm").datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: !1,
+                forceParse: !1,
+                calendarWeeks: !0,
+                autoclose: !0
+            });
+        });
+    </script>
+    
+    <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content animated bounceInRight">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <!--  <i class="fa fa-money modal-icon"></i>-->
+                <h4 class="modal-title">转券</h4>
+                <!--<small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>-->
+            </div>
+            <div class="modal-body">
+                <p>您目前的激活券为：<span class="label label-danger">0.00</span></p>
+                <form role="form" id="sendForm" method="post" action="">
+                    <input type="hidden" name="act" value="zhuan">
+                    <input type="hidden" name="__hash__" value="ba702954cbd6b2008501570e43cc26703b11ad2b" />
+                    <div class="form-group"><label>转券类型</label>
+                        <select name="ztype" id="ztype" class="form-control">
+                            <option value=0 >激活券</option>     
+                        </select>
+                    </div>
+                    <div class="form-group"><label>转入会员编号<span id="showName" style="color: #1ab394"></span></label>
+                        <input type="text" placeholder="" class="form-control" name="tousername" value="" id="tousername">
+                    </div>
+                    <div class="form-group"><label>转出金额</label>
+                        <div id="price_slider" style="margin: 10px auto" class="noUi-target noUi-ltr noUi-horizontal noUi-connect"><div class="noUi-base"><div class="noUi-origin noUi-background" style="left: 0%; "><div class="noUi-handle noUi-handle-lower"></div></div></div></div>
+                        <input type="text" placeholder="" class="form-control" name="price" value="" id="price">
+
+                    </div>                  
+                    <div class="form-group"><label>图形验证码</label><span style="color: #1ab394">&nbsp;&nbsp;<img src="yimaoinclude/code.php" id="CodeImage" alt="看不清？换一张" onclick='this.src="yimaoinclude/code.php?"+Math.random()'></span></br>
+                        <input type="text" placeholder="发短信前必须请输入图片验证码" class="form-control" name="yzm" value="" id="yzm">
+                    </div>
+                    <div class="form-group">
+                        <label>身份短信验证</label> &nbsp;&nbsp;&nbsp;
+                        <label><input type="button" class="form-control" id="sendSms" style="background-color:#f67a62;color:white;" value="获取短信验证码"/></label> 
+                        <input type="text" placeholder="" class="form-control" name="smscode" value="" id="smscode">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+                <button type="button" class="ladda-button ladda-button-demo btn btn-danger" id="sendUp" onclick="sendAjax('sendUp','control.php')" data-style="zoom-in">确认转券</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="yimaotheme/style/js/jquery.cokie.min.js"></script>
+<script src="yimaotheme/style/js/zhuan.js"></script>
+<script>
+    function sendAjax(buttonId,goPage){
+        var thisTicket = "#"+buttonId;
+        var l = $(thisTicket).ladda();
+
+        // Start loading
+        l.ladda('start');
+        setTimeout(function () {
+            $.ajax({
+                url: goPage,
+                type: "post",
+                dataType: "json",
+                data: $("#sendForm").serialize(),
+                error: function (msg) {
+                    showSweetAlert('', msg, 'error');
+                    setTimeout(function () { 
+                        window.location.reload();
+                    }, 2000);
+                },
+                success: function (msg) {
+                    if (msg.Result != 1) {
+                        showSweetAlert('', msg.Description, 'error');
+                        setTimeout(function () {
+                            location.reload();
+                        },1000);
+                    } else {
+                        showSweetAlert("", msg.Description, "success",function (isConfirm) {
+                            location.href = msg.toUrl;
+                        });
+                        setTimeout(function () {
+                            location.href = msg.toUrl;
+                        },2000);
+                    }
+                    l.ladda('stop');
+                }
+            });
+        }, 500);
+    }
+</script>
+{include file="../application/user/view/layout/footer.html" /}
+</div>  
+</div>
+</div>
+</body>
+</html>
