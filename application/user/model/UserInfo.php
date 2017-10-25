@@ -6,8 +6,11 @@ class UserInfo extends Model{
     protected $table = 'user_info';
 
     public function getUserInfo($uname, $pwd){
-        $re = $this->where(['user_name' => $uname, 'first_pw' => $pwd])->find()->toArray();
-        return $re;
+        $re = $this->where(['user_name' => $uname, 'first_pw' => $pwd])->find();
+        if(!$re){
+            return false;
+        }
+        return $re->toArray();
     }
 
     public function getHaveUserByUserName($uname){
