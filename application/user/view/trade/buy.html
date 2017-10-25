@@ -1,0 +1,308 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>股权中心</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="main.php">首页</a>
+            </li>
+            <li>
+                <a>股权中心</a>
+            </li>
+            <li class="active">
+                <strong>购入股权</strong>
+            </li>
+        </ol>
+    </div>
+</div>
+        
+        
+<div class="container">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>股价行情</h5>
+                    </div>
+                    <div class="ibox-content" style="text-align:center">
+                        <div id="main" style="margin:0 auto;border:1px solid #000;width:80%;height:400px;"></div>
+                    </div>
+                    <script type="text/javascript">
+                        $.ajax({
+                            type: "get",
+                            dataType: "json",
+                            url: "/ajax.php?act=stockprice&t="+Math.random(),
+                            success: function(res){
+                                // 基于准备好的dom，初始化echarts实例
+                                var myChart = echarts.init(document.getElementById('main'));
+
+                                // 指定图表的配置项和数据
+                                var option = {
+                                    title: {
+                                        text: '股价波动图(元/股)'
+                                    },
+                                    tooltip: {
+                                        trigger: 'axis'
+                                    },
+                                    legend: {
+                                        data: ['当时股价']
+                                    },
+                                    grid: {
+                                        left: '3%',
+                                        right: '4%',
+                                        bottom: '3%',
+                                        containLabel: true
+                                    },
+                                    toolbox: {
+                                        feature: {
+                                            saveAsImage: {}
+                                        }
+                                    },
+                                    xAxis: {
+                                        type: 'category',
+                                        boundaryGap: false,
+                                        data: res.riqi
+                                    },
+                                    yAxis: {
+                                        type: 'value'
+                                    },
+                                    series: [{
+                                        name: '当时股价',
+                                        type: 'line',
+                                        stack: '总量',
+                                        data: res.gprice
+                                    }]
+                                };
+
+                                // 使用刚指定的配置项和数据显示图表。
+                                myChart.setOption(option);                              
+                                
+                            },
+                            error: function(){
+                               
+                            },
+                            cache: false,
+                            async: true
+                        });
+                    
+                </script>
+
+                </div>              
+                
+            </div>
+            
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>购入股权 </h5>
+                    </div>
+                    <div class="ibox-content">
+                        <form role="form" id="sendForm" action="control.php" method="post">
+                        <div class="row">
+                            <div class="col-sm-6 b-r">
+                                <!--<h3 class="m-t-none m-b">cn9225758</h3>
+                                <p>高级会员</p>-->
+                                    <input type="hidden" name="act" value="buygp">
+                                    <input type="hidden" name="__hash__" value="0e6c08948c650e92a2605cdfc804135b8c26e21c" />
+                                    <div class="form-group"><label>我的订货券</label>
+                                        <input type="text" name="jin" class="form-control" readonly value="0.01">
+                                    </div>
+                                    <div class="form-group"><label>当前股价</label>
+                                        <input type="text" name="gprice" id="gprice" class="form-control" readonly value="1.24">
+                                    </div>
+                                    <div class="form-group"><label>购买股数</label>
+                                        <input type="text" name="gnums" id="gnums" class="form-control" value="">
+                                    </div>
+                            </div>
+                            <div class="col-sm-6"><h4>支付方式</h4>
+                                <table class="table table-hover mail-items m-b-0">
+                            <tbody>
+                                <!--订货券支付-->
+                                <tr class="unread">
+                                    <td class="mail-item-sender">
+                                        <a class="  m-r-0-6" href="#">
+                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wallets.png" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                        <a href="#">订货券支付</a></td>
+                                    <td class="mail-item-time">选择</td>
+                                    <td class="mail-item-checkbox">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="radio" class="custom-control-input" id="wallets" name="paytype" value="wallets" required="required">
+                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <!--优惠券支付-->
+                                <tr class="unread">
+                                    <td class="mail-item-sender">
+                                        <a class="  m-r-0-6" href="#">
+                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wallets.png" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                        <a href="#">优惠券支付</a></td>
+                                    <td class="mail-item-time">选择</td>
+                                    <td class="mail-item-checkbox">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="radio" class="custom-control-input" id="jdwallets" name="paytype" value="jdwallets" required="required">
+                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <!--支付宝支付
+                                <tr class="unread">
+                                    <td class="mail-item-sender">
+                                        <a class="  m-r-0-6" href="#">
+                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/alipay.jpg" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                        <a href="#">支付宝支付</a></td>
+                                    <td class="mail-item-time">选择</td>
+                                    <td class="mail-item-checkbox">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="radio" class="custom-control-input" id="alipay" name="paytype" value="alipay" required="required">
+                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                        </label>
+                                    </td>
+                                </tr>-->
+                                <!--
+                                <tr class="unread">
+                                    <td class="mail-item-sender">
+                                        <a class="  m-r-0-6" href="#">
+                                            <img class="b-a-radius-0-125" src="yimaotheme/style/img/wxpay.jpg" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-circle text-warning m-r-0-5"></i>
+                                        <a href="#">微信支付</a></td>
+                                    <td class="mail-item-time">选择</td>
+                                    <td class="mail-item-checkbox">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="radio"  class="custom-control-input" id="wxpay" name="paytype" value="wxpay">
+                                            <span class="custom-control-indicator bg-success b-a-radius-circle"></span>
+                                        </label>
+                                    </td>
+                                </tr>-->
+                            </tbody>
+                        </table>
+                            </div>                      
+                            <p class="text-center">
+                                <a id="sendUp" onclick="sendAjax('sendUp','control.php')" class="ladda-button ladda-button-demo" data-style="zoom-in"><i class="fa fa-check middle-icon" style="color: #1ab394"></i></a>
+                            </p>
+                        </div>
+                        </form>
+                        <div class="alert alert-success" ss="">
+                            股权购买记录
+                        </div>
+                        <div class="tablesaw-bar mode-stack"></div>
+            <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="tbList">
+                <thead>
+                    <tr role="row">
+                        <th>编号</th>
+                        <th>交易订单号</th>
+                        <th>购买时间</th>
+                        <th>单价</th>
+                        <th>股数</th>
+                        <th>总金额</th>
+                    </tr>                               
+                </thead>
+                <tbody id="listDtl">
+                
+                                    <tr><td colspan="7" style="text-align:center;">暂无数据！</td></tr>
+                                </tbody></table>
+                    <div id="listPaging" class="row grey-bg"><form action="?&action=buytrade" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">0</b>条记录，当前显示第&nbsp;<b class="blue">0</b>&nbsp;页&nbsp;共0页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-white btn-sm" href="?page=1&action=buytrade">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=buytrade">上一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=0&action=buytrade">下一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=0&action=buytrade">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="buytrade"></div></div></div></form></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+    function sendAjax(buttonId,goPage){
+        var gnums = $("#gnums").val();
+        if(gnums==null || gnums==undefined || gnums==""){
+            showSweetAlert('',"请输入购买股数!", 'error');
+            return false;
+        }
+        var paytype = $("input[name='paytype']:checked").val();
+        if(paytype == "alipay"){
+            $("#sendForm").attr("target", "_blank");
+            $("#sendForm").submit();
+            parent.layer.confirm('是否已完成充值？', {
+                btn: ['已完成充值','取消'], //按钮
+            }, function(){
+                window.location.reload();
+            }, function(){
+                parent.layer.msg('再次提交需要刷新页面', {shift: 6});
+            });
+        }else{
+            if(gnums==null || gnums==undefined || gnums==""){
+                showSweetAlert('',"请输入购买股数!", 'error');
+                return false;
+            }
+            var gprice = $("#gprice").val();
+            if(paytype=="wallets"){
+                var titleText = "您确定要花费"+ gprice*gnums + "订货券购买股权吗？";
+            }else if(paytype=="jdwallets"){
+                var titleText = "您确定要花费"+ gprice*gnums*2 + "优惠券购买股权吗？";
+            }else{
+                showSweetAlert('',"请选择支付方式!", 'error');
+                return false;
+            }
+            var thisTicket = "#"+buttonId;
+            var l = $(thisTicket).ladda();
+            swal({ 
+                title: "购买股权", 
+                text: titleText, 
+                type: "warning", 
+                showCancelButton: true, 
+                closeOnConfirm: false, 
+                confirmButtonText: "是的，我要购买", 
+                cancelButtonText: "不，我不买", 
+                confirmButtonColor: "#ec6c62" 
+            }, function() {
+            // Start loading
+                l.ladda('start');
+                setTimeout(function () {
+                    $.ajax({
+                        url: goPage,
+                        type: "post",
+                        dataType: "json",
+                        data: $("#sendForm").serialize(),
+                        error: function (msg) {
+                            showSweetAlert('', msg, 'error');
+                        },
+                        success: function (msg) {
+                            if (msg.Result != 1) {
+                                showSweetAlert('', msg.Description, 'error')
+                            } else {
+                                showSweetAlert("", msg.Description, "success",function (isConfirm) {
+                                    location.href = msg.toUrl;
+                                });
+                                setTimeout(function () {
+                                    location.href = msg.toUrl;
+                                },2000);
+                            }
+                            l.ladda('stop');
+                        }
+                    });
+                }, 500);
+            });
+        }
+    }
+</script>        
+ {include file="../application/user/view/layout/footer.html" /} 
+</div>
+</div>
+</div>
+</body>
+</html>
