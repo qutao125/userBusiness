@@ -23,24 +23,26 @@ class BaseController extends Controller
         if(!Session::get('uid')){
             header('Location:/user/login/index');
             exit;
+        }else{
+            $this->setNavData();
         }
         return true;
     }
 
     public function checkSecondPwd(){
         if(!Session::get('second_pwd')){
-            header('Location:/user/login/second_pwd?reurl=' . base64_encode($_SERVER['REDIRECT_URL']));
+            header('Location:/user/login/second_pwd?reurl=' . base64_encode($_SERVER['REQUEST_URI']));
             exit;
         }
         return true;
     }
-
-
 
     public function setUserInfo($uinfo){
         Session::set('uid', $uinfo['id']);
         Session::set('uname', $uinfo['user_name']);
         Session::set('uinfo', $uinfo);
     }
-
+    public function setNavData(){
+        $this->assign('data',['mobile'=>'1034399862','ip'=>'192.16.1.2','total'=>1,'time'=>date('Y-m-d')]);
+    }
 }

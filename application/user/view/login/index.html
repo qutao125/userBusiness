@@ -131,7 +131,7 @@
     <!-- END FORGOT PASSWORD FORM -->
 </div>
 <div class="copyright">
-    <strong>备案号：</strong> <a href="http://www.miitbeian.gov.cn/">粤ICP备16047833号-1</a>
+    <strong>备案号：</strong> <a href=""></a>
 </div>
 <!-- END LOGIN -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
@@ -163,17 +163,6 @@
         Layout.init(); // init current layout
         Login.init();
         Demo.init();
-        $.backstretch([
-                "asset/images/bg/8.jpg",
-                "asset/images/bg/9.jpg",
-                "asset/images/bg/5.jpg",
-                "asset/images/bg/4.jpg"
-            ], {
-                fade: 1000,
-                duration: 8000
-            }
-        );
-
         $(".goto_login").click(function(){
             var uname = $("#username").val();
             var pwd = $("#password").val();

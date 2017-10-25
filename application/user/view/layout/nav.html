@@ -1,0 +1,89 @@
+<div class="bk-toolBar clearfix" id="pc-top">
+    <ul class="pull-left" id="topMenuPrice">
+        <li><p>&nbsp;&nbsp;<i class="fa fa-fire"></i>&nbsp;欢迎您！ <span class="text-warning">{$data['mobile']}！</span></p></li>
+        <li><p>&nbsp;&nbsp;这是您第 <span class="text-warning">{$data['total']}</span> 次登录系统</p></li>
+        <li><p>&nbsp;&nbsp;您上次的登录时间是 <span class="text-warning">{$data['time']}</span> </p></li>
+        <li><p>&nbsp;&nbsp;本次登录IP <span class="text-warning">{$data['ip']}</span></p></li>
+    </ul>
+    <ul class="pull-right" id="topMenuNav" style="margin-top:1px;margin-right: 20px;">
+        <li id="menuNew"><a href="" target="_self"><span class="text-warning">信息资讯<span class="badge"></span></span></a></li>
+    </ul>
+    <a id="btnRecommed" role="button" class="btn btn-primary btn-skew btn-sm pull-right" style="margin-top:4px;margin-right: 20px;" target="_self">
+    <span><i class="fa fa-clock-o"></i> <span id="timer"></span></span>
+    <script language="javascript">
+        document.getElementById('timer').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());
+        setInterval("document.getElementById('timer').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+    </script>
+    </a>
+</div>
+            <nav class="navbar navbar-static-top" role="navigation">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                        <i class="fa fa-reorder"></i>
+                    </button>
+                    <a href="https://www.zhdls.com/main.php#" class="navbar-brand">会员商务系统</a>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a aria-expanded="false" role="button" href="/user"><i class="fa fa-home" style="font-size: 1.2em;"></i>首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="/user/ucenter/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-paper-plane"></i>资料管理<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="/user/ucenter">数据中心</a></li>
+                                <li><a href="/user/ucenter/myinfo">个人资料</a></li>
+                                <li><a href="/user/ucenter/changePwd">密码修改</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i>团队管理<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="/user/ucenter/register">会员申请</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=mytj">推荐会员</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=openlistcomp">已注册会员</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="https://www.zhdls.com/salaryquery.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money"></i>财务管理<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="http://www.zhdls.com/main.php?action=huanlist">存券</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=qhuan">换券</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=zhuanlist">转券</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=prizelist">奖金记录</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=coinlist">积分记录</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=tiqulist">兑券</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=chonglist">购券</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="https://www.zhdls.com/order.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i>产品中心<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="http://www.zhdls.com/main.php?action=buymai">产品订购</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=mygou">订单列表</a></li>
+                                <!-- <li><a href="http://www.zhdls.com/main.php?action=cartlist" >我的购物车</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="https://www.zhdls.com/order.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bar-chart"></i>股权中心<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="http://www.zhdls.com/main.php?action=buytrade">购入股权</a></li>
+                                <li><a href="http://www.zhdls.com/main.php?action=buyback">公司回购</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="https://www.zhdls.com/announces.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-newspaper-o"></i>信息管理<span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="http://www.zhdls.com/main.php?action=newslist">系统公告</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <a href="https://www.zhdls.com/index.php?u=out" onclick="return confirm(&#39;确定退出吗？&#39;)">
+                                <i class="fa fa-sign-out"></i>安全退出
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
