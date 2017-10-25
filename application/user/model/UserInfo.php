@@ -52,10 +52,7 @@ class UserInfo extends Model{
             $arr['level'] = 3;
             $list3[] = $arr;
         }
-
         return ['level1' => $list1, 'level2' => $list2, 'level3' => $list3];
-
-
     }
 
     public function addUser($uinfo){
