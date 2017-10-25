@@ -1,0 +1,209 @@
+{include file="../application/user/view/layout/header.html" /}
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+        {include file="../application/user/view/layout/nav.html" /}
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>存券</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/">首页</a>
+                    </li>
+                    <li>
+                        <a>财务管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>存券</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>存券记录</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row">
+                                    <form class="form-inline title-form" name="form2" method="get" action="">
+                                        <input type="hidden" name="action" value="huanlist">
+                                        <div class="form-group" id="data_5">
+                                            <label class="font-noraml"></label>
+                                            <div class="input-daterange input-group" id="datepicker">
+                                                <input type="text" class="input-sm form-control" name="time1" placeholder="开始日期">
+                                                <span class="input-group-addon">到</span>
+                                                <input type="text" class="input-sm form-control" name="time2" placeholder="截止日期">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">查询</button>
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">我要存券</button>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <div class="tablesaw-bar mode-stack"></div>
+                                    <table style="font-size:17px" class="table table-hover tablesaw-stack" data-tablesaw-mode="stack" id="example">
+                                        <thead>
+                                            <tr role="row">
+                                                <th>序号</th>     
+                                                <th>类型</th>     
+                                                <th>扣除</th>
+                                                <th>优惠券增长</th>
+                                                <th>存券时间</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="listDtl">
+                                        {if $list}
+                                            <tr>
+                                                <td align="center">1</td>
+                                                <td align="center">订货券</td>
+                                                <td align="center">10.80&nbsp;</td>
+                                                <td align="center">19.44&nbsp;</td>
+                                                <td align="center">2017-10-25 09:37:24</td> 
+                                            </tr>
+                                        {else}
+                                            <tr>
+                                                <td colspan="5" style="text-align:center;">暂无数据</td>
+                                            <tr>
+                                        {/if}
+                                         </tbody>
+                                    </table>
+                    <div id="listPaging" class="row grey-bg"><form action="?&action=huanlist&templist=1" method="get"><div class="col-md-6" style="padding-top: 10px;">
+        <p>共<b class="blue">18</b>条记录，当前显示第&nbsp;<b class="blue">1</b>&nbsp;页&nbsp;共3页</p>
+    </div><div class="col-md-6"><div class="btn-group pull-right" style="padding-top: 5px;"><a class="btn btn-primary btn-sm" href="?page=1&action=huanlist&templist=1">首页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=1&action=huanlist&templist=1">上一页</a>&nbsp;&nbsp;<a class="btn btn-primary btn-sm" href="?page=1&action=huanlist&templist=1" class="selpage">1</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=huanlist&templist=1">2</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=3&action=huanlist&templist=1">3</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=2&action=huanlist&templist=1">下一页</a>&nbsp;&nbsp;<a class="btn btn-white btn-sm" href="?page=3&action=huanlist&templist=1">尾页</a>&nbsp;&nbsp;<div class="form-group"><input type="text" size=20 name="page"  onkeyup="value=value.replace(/[^\d]/g,'')" ><input type="submit" class="btn btn-white" data-submitbutton="true" value="GO"><input type="hidden" name="action" value="huanlist"><input type="hidden" name="templist" value="1"></div></div></div></form></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(".input-sm").datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: !1,
+                forceParse: !1,
+                calendarWeeks: !0,
+                autoclose: !0
+            });
+        });
+    </script>
+    
+    <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content animated bounceInRight">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <!--  <i class="fa fa-money modal-icon"></i>-->
+                <h4 class="modal-title">存券</h4>
+                <!--<small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>-->
+            </div>
+            <div class="modal-body">
+                <p>您当前的订货券为：<span class="label label-primary">0.01</span></p>
+                <p>您当前的激活券为：<span class="label label-primary">0.00</span></p>
+                <form role="form" id="sendForm" method="post" action="">
+                    <input type="hidden" name="act" value="huan">
+                    <input type="hidden" name="__hash__" value="e6072bc3e9098ac834354c6163fbcaf1e92ef4f3" />
+                    <div class="form-group"><label>存券类型 (激活券存券会计算新增业绩)</label>
+                        <select name="ztype" id="ztype" class="form-control">
+                            <option value=0 >订货券</option><option value=1 >激活券</option>     
+                        </select>
+                    </div>
+                    <div class="form-group"><label>存券数量</label>
+                        <div id="price_slider" style="margin: 10px auto" class="noUi-target noUi-ltr noUi-horizontal noUi-connect"><div class="noUi-base"><div class="noUi-origin noUi-background" style="left: 0%; "><div class="noUi-handle noUi-handle-lower"></div></div></div></div>
+                        <input type="text" placeholder="" class="form-control" name="price" value="" id="price">
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+                <button type="button" class="ladda-button ladda-button-demo btn btn-primary" id="sendUp" onclick="sendAjax('sendUp','control.php')" data-style="zoom-in">确认存券</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        var range = document.getElementById('price_slider');
+        noUiSlider.create(range, {
+            start: 0,
+            behaviour: 'tap',
+            connect: 'lower',
+            range: {
+                'min':  0,
+                'max':  3680.30            }
+
+        });
+        var valueInput = document.getElementById('price');
+        range.noUiSlider.on('update', function( values, handle ) {
+            if ( !handle ) {
+                valueInput.value = values[handle];
+            }
+        });
+        valueInput.addEventListener('change', function(){
+            document.getElementById('price_slider').noUiSlider.set(this.value);
+        });
+
+    });
+</script>
+<script>
+function sendAjax(buttonId,goPage){
+    is_opt = true;
+    swal({ 
+        title: "确定存券？", 
+        text: "您确定要进行存券操作吗？", 
+        type: "warning", 
+        showCancelButton: true, 
+        closeOnConfirm: true, 
+        confirmButtonText: "是的，我要存券", 
+        confirmButtonColor: "#ec6c62" 
+    }, function() {
+        if(is_opt == true){
+            is_opt = true;
+            var thisTicket = "#"+buttonId;
+            var l = $(thisTicket).ladda();
+
+            // Start loading
+            l.ladda('start');
+            setTimeout(function () {
+                $.ajax({
+                    url: goPage,
+                    type: "post",
+                    dataType: "json",
+                    data: $("#sendForm").serialize(),
+                    error: function (msg) {
+                        showSweetAlert('', msg, 'error');
+                    },
+                    success: function (msg) {
+                        if (msg.Result != 1) {
+                            showSweetAlert('', msg.Description, 'error');
+                            setTimeout(function () {
+                                location.reload();
+                            },1000);
+                        } else {
+                            showSweetAlert("", msg.Description, "success",function (isConfirm) {
+                                location.href = msg.toUrl;
+                            });
+                            setTimeout(function () {
+                                location.href = msg.toUrl;
+                            },2000);
+                        }
+                        l.ladda('stop');
+                    }
+                });
+            }, 500);
+        }
+        
+    });
+}
+</script>        
+        {include file="../application/user/view/layout/footer.html" /}
+       </div>
+</div>
+</div>
+</body>
+</html>
