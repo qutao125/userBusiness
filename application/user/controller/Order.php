@@ -21,4 +21,10 @@ class Order extends BaseController
     public function productList(){
         return $this->fetch();
     }
+    /**
+     * 产品详情
+    */
+    public function productInfo(){
+        return $this->fetch();
+    }
 }
